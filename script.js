@@ -51,7 +51,7 @@ function createDataTable(start, end) {
 
     optdiv.innerHTML = " ";
     var request = new XMLHttpRequest();
-    var url = "https://raw.githubusercontent.com/Rajavasanthan/jsondata/master/pagenation.json";
+    var url = "https://627dfdc0b75a25d3f3af5b39.mockapi.io/pagination";
 
     request.open("GET", url, true);
     request.send();
